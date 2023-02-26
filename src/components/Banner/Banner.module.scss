@@ -1,0 +1,25 @@
+.banner {
+
+    text-align: center;
+    img {
+        width: 100%;
+    }
+
+    button {
+        position: relative;
+        top: -80px;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 16px;
+        padding: 8px 30px;
+        gap: 8px;
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(2px);
+        border-radius: 30px;
+        color: #FCFCFC;
+        box-sizing: border-box;
+        width: 253px;
+        height: 40px;
+    }
+
+}

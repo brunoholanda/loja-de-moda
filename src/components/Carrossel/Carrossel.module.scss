@@ -1,0 +1,39 @@
+.carrossel {
+    text-align: center;
+    justify-content: center;
+    margin: 3em 4em;
+    padding-bottom: 0; 
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+
+    h1 {
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    &__card {
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+           
+
+        img {
+            width: 255px;
+            height: 310px;
+        }
+
+        p {
+            margin: .3em 0;
+            font-size: 16px;
+        }
+
+        p:nth-child(4) {
+            color: var(--laranja);
+            margin: 0;
+        }
+       
+    }
+}

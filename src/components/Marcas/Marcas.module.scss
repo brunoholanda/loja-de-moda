@@ -1,0 +1,15 @@
+.marcas {
+    margin: 3em 1em 1em 1em;
+
+    &__logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            margin: 1em 1em;
+            width: 70px;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.produtos {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-weight: 400;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  &__cards {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+
+  &__card {
+    height: 200px;
+    width: 165px;
+    margin: .8em .3em 6em .3em;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-weight: 400;
+    
+
+    p {
+      margin: 0.5em;
+    }
+
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.025);
+      transition: 0.18s;
+    }
+  }
+
+
+
+  &__texto {
+    font-size: 12px;
+  }
+
+  &__preco {
+    color: var(--laranja);
+    font-size: 15px;
+  }
+
+  &__seta {
+    display: flex;
+    align-items: center;
+    
+    img {
+      width: 18px;
+      height: 18px;
+    }
+
+    h3 {
+      font-family: var(--fonte-principal);
+      font-size: 16px;
+      padding-right: .5em;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+
+
+}

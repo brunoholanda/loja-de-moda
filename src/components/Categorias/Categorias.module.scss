@@ -1,0 +1,34 @@
+.categorias {
+    
+    &__lista {
+
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0 1em;
+
+        
+
+        li {
+            text-align: center;
+            padding: .5em 1em;
+            font-family: var(--fonte-principal);
+            color: var(--cinza-medio);
+            font-size: 14px;
+            font-weight: 400;
+
+        }
+
+        .selecionado {
+            color: var(--preto);
+            font-size: 14px;
+            background-image: url(../../public/assets/icons/selecionado.png);
+            background-repeat: no-repeat;
+            background-position: center 24px;
+            
+          }
+
+        
+    }
+}
+

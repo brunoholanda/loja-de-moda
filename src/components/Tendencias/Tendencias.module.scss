@@ -1,0 +1,30 @@
+.tendencias {
+    text-align: center;
+    margin: 2em 1.5em;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+
+    h2 {
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p {
+        background-color: #f9f9f9;
+        border-radius: 30px;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    &__linha1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;        
+    }
+
+    &__linha2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;        
+    }
+}

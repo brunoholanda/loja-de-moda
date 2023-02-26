@@ -1,0 +1,27 @@
+.instagram {
+
+    text-align: center;
+    margin-bottom: 4em;
+
+    h2 {
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    img {
+        margin-bottom: 1em;
+    }
+
+    &__perfis {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+
+       img {
+        margin: .3em;
+       }
+    }
+
+}

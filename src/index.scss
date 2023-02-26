@@ -1,0 +1,30 @@
+:root {
+  --fonte-principal: 'Tenor Sans', sans-serif;;
+  --fonte-secundaria: 'Bodoni Moda', serif;;
+  --branco: #ffffff;
+  --preto: #000000;
+  --cor-do-texto: #333333;
+  --cinza-escuro: #555555;
+  --cinza-medio: #888888;
+  --cinza-claro: #D9DBE9;
+  --cinza-rodape: #C4C4C4;
+  --bege: #E0CFBA;
+  --bege-claro: #D9DBE9;
+  --marrom: #A8715A;
+  --laranja: #DD8560;
+  --cinza-cabecalho: #E7EAEF;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
