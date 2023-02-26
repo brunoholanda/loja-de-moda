@@ -11,7 +11,7 @@
 :rocket: Pagina inicial de loja Mobuly Only
 
 # Acesso ao Projeto
-
+https://loja-de-moda-smoky.vercel.app/
 
 # Acesse o Figma do projeto
 https://www.figma.com/file/jBWqfGTQZSFURcnzmoVAap/Open-Fashion---Free-eCommerce-UI-Kit-(Community)?node-id=418%3A616&t=v1xx6GmRR6Zqloge-0
